@@ -1,0 +1,94 @@
+
+body{
+	background-image: url("../images/bgimage.jpg");
+	background-size: cover;
+
+}
+
+#logo{
+  max-width: 500px;
+  margin: 0 auto;
+ 
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#formcontainer{
+  background-color: #EDF2F7;
+  max-width: 400px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px 15px 15px 5px;
+
+}
+
+#formcontainer h2{
+  text-align: center;
+  color: #083E9E;
+}
+
+#formcontainer h4{
+	text-align: center;
+}
+
+.place{
+	color:  #A0AEC3;
+}
+
+#formcontainer input[type="text"],
+#formcontainer input[type="email"],
+#formcontainer input[type="tel"],
+#formcontainer input[type="password"],
+#formcontainer select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #EDF2F7;
+	color:#A0AEC3;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+#formcontainer label{
+	font-weight: bold;
+	color: #000000;
+}
+
+#formcontainer input[type="submit"],
+#formcontainer input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #062B6F;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 80%;
+	border-radius: 15px 15px 15px 5px;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+
+.already{
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+span{
+	color: #ffffff;
+}
